@@ -3,7 +3,7 @@ import { db } from "../data/database";
 import type {CartItem, Guitar} from '../types'
 
 const useCart = () => {
-    const newVar:string= 'hola'
+
 
     const initialCart = ():CartItem[] => {
         const localStorageCart = localStorage.getItem("cart");
